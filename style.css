@@ -1,0 +1,42 @@
+nav {
+	position:fixed;
+	top:0;
+	left:0;
+	width: 100%;
+	min-height: 5%;
+	background-color: black;	
+	padding: 10px 100px;
+	vertical-align: baseline;
+}
+nav .right ul {
+	list-style: none;
+}
+nav .right {
+	float: right;
+	transform: translate(-100%, 0);
+}
+nav .right ul li {
+	display: inline;
+}
+nav .left {
+	float: left;
+	color: white;
+	text-decoration: none;
+}
+nav .left a {
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+nav a {
+	padding:10px;
+	text-decoration: none;
+	color: white;
+	background-color: black;
+}
+nav a:hover {
+	background-color: white;
+	color: black;
+	border-radius: 5px;
+}
+
