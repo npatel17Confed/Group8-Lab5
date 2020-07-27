@@ -79,7 +79,6 @@ nav a:hover {
 }
 
 .container pre {
-	font-size: 1.2em;
 	font-family: 'Times New Roman';
 	font-weight: bold;
 }
@@ -100,6 +99,17 @@ nav a:hover {
 
 .container form button:hover {
 	cursor: pointer;
+}
+
+.container .info {
+	clear: both;
+}
+
+.container .contact img {
+	height: 110px;
+	width: 110px;
+	float: left;
+	padding: 0 20px 20px 0;
 }
 
 /* Footer */
