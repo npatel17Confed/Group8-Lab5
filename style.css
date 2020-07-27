@@ -78,6 +78,11 @@ nav a:hover {
 	border: 1px solid black;
 }
 
+.container .content {
+	float: right;
+	width: 60%;
+}
+
 .container pre {
 	font-family: 'Times New Roman';
 	font-weight: bold;
