@@ -1,11 +1,15 @@
-nav {
-	position:fixed;
-	top:0;
-	left:0;
+/* Navbar */
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
 	width: 100%;
-	min-height: 5%;
-	background-color: black;	
-	padding: 10px 100px;
+}
+nav {
+	width: 80%;
+	margin: auto;
+	padding: 10px 0px;
 	vertical-align: baseline;
 }
 nav .right ul {
@@ -13,7 +17,6 @@ nav .right ul {
 }
 nav .right {
 	float: right;
-	transform: translate(-100%, 0);
 }
 nav .right ul li {
 	display: inline;
@@ -29,7 +32,7 @@ nav .left a {
 	font-style: italic;
 }
 nav a {
-	padding:10px;
+	padding:10px 20px;
 	text-decoration: none;
 	color: white;
 	background-color: black;
@@ -37,6 +40,48 @@ nav a {
 nav a:hover {
 	background-color: white;
 	color: black;
-	border-radius: 5px;
 }
 
+
+/* Container */
+.container {
+	padding: 5% 0;
+	width: 80%;
+	margin: auto;
+}
+
+.container img {
+	width: 300px;
+	height: 150px;
+}
+
+.container .project {
+	clear: both;
+	padding: 40px 0;
+}
+
+.container .project a {
+	float: left;
+	margin-right: 20px;
+	border: 1px solid black;
+}
+
+/* Footer */
+footer {
+	background-color: black;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+
+footer p {
+	color: white;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
