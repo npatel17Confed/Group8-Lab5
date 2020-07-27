@@ -1,3 +1,7 @@
+body {
+	background-color: #fefefe;
+}
+
 /* Navbar */
 header {
 	position: fixed;
@@ -6,37 +10,45 @@ header {
 	background-color: black;
 	width: 100%;
 }
+
 nav {
 	width: 80%;
 	margin: auto;
 	padding: 10px 0px;
 	vertical-align: baseline;
 }
+
 nav .right ul {
 	list-style: none;
 }
+
 nav .right {
 	float: right;
 }
+
 nav .right ul li {
 	display: inline;
 }
+
 nav .left {
 	float: left;
 	color: white;
 	text-decoration: none;
 }
+
 nav .left a {
 	font-size: 20px;
 	font-weight: bold;
 	font-style: italic;
 }
+
 nav a {
 	padding:10px 20px;
 	text-decoration: none;
 	color: white;
 	background-color: black;
 }
+
 nav a:hover {
 	background-color: white;
 	color: black;
@@ -50,7 +62,7 @@ nav a:hover {
 	margin: auto;
 }
 
-.container img {
+.container .project img {
 	width: 300px;
 	height: 150px;
 }
@@ -64,6 +76,30 @@ nav a:hover {
 	float: left;
 	margin-right: 20px;
 	border: 1px solid black;
+}
+
+.container pre {
+	font-size: 1.2em;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+}
+
+.container form input {
+	width: 300px;
+	padding: 10px;
+	margin: 0 10px 0 0;
+}
+
+.container form button {
+	padding: 13px 30px;
+	color: white;
+	background-color: black;
+	border: none;
+	border-radius: 3px;
+}
+
+.container form button:hover {
+	cursor: pointer;
 }
 
 /* Footer */
@@ -84,4 +120,10 @@ footer a {
 	text-decoration: none;
 	color: white;
 	font-style: italic;
+	padding: 10px 20px;
+}
+
+footer a:hover {
+	background-color: white;
+	color: black;
 }
